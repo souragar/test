@@ -1,0 +1,3 @@
+com/mediaiq/bi/server/service/libraryServiceTest.class
+com/mediaiq/bi/server/JdbcTest.class
+com/mediaiq/bi/server/repo/LibraryRepoTest.class

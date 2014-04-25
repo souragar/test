@@ -1,0 +1,29 @@
+<h1>BI Server Up!</h1>
+<html ng-app="bookApp">
+<head>
+<title>Hello AngularJS</title>
+</head>
+
+<body>
+
+<div ng-controller="bookCtrl">
+		<table>
+			<tr ng-repeat="book in Books">
+				<td>The book name is {{book.name}}</td>
+				<td>Book id is {{book.id}}</td>
+				<td>
+				<a href='' ng-click='removeBook(book)'>Add</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	 <br>
+            <button x-edit-entity entity='datasource' view='partials/Datasource/DatasourceEditView.html' class="btn btn-primary btn-sm">Add Datasource</button>
+            <br>
+<script	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+<script src="bookController.js"></script>
+
+</body>
+
+</html>
